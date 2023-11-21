@@ -35,5 +35,5 @@ for i in range (0, dst.shape[0]):
             cv2.circle(corner_image, (j, i), 1, (0, 255, 0), 1)
 
 plt.axis('off')
-plt.savefig('Images/corner_harris_det.jpg')
 plt.imshow(corner_image)
+plt.savefig('Images/corner_harris_det.jpg')
