@@ -32,7 +32,8 @@ print(dst.shape)
 for i in range (0, dst.shape[0]):
     for j in range(0, dst.shape[1]):
         if (dst[i, j] > thresh):
-            cv2.circle(corner_image, (j, i), 1, (255, 0, 0), 1)
+            cv2.circle(corner_image, (j, i), 1, (0, 255, 0), 1)
 
 plt.axis('off')
+plt.savefig('Images/corner_harris_det.jpg')
 plt.imshow(corner_image)
