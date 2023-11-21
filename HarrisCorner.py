@@ -36,4 +36,4 @@ for i in range (0, dst.shape[0]):
 
 plt.axis('off')
 plt.imshow(corner_image)
-plt.savefig('Images/corner_harris_det.jpg')
+plt.savefig('Images/harris_corner_det.jpg')
