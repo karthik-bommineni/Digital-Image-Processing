@@ -8,5 +8,5 @@ Below image is the original image <br>
 <br>
 
 Below image is the one with the corners in it. <br>
-<img src="Images/harris_corner_det.png" alt="Original Image" style="float: left; margin-right: 10px;" /> 
+<img src="Images/corner_harris_det.jpg" alt="Original Image" style="float: left; margin-right: 10px;" /> 
 
