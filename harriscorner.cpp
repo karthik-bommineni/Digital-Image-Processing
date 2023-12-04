@@ -52,7 +52,6 @@ int main()
 {
 
     harrisCornerDetector();
-    shiTomasiCornerDetector();
 
     return 0;
 }
