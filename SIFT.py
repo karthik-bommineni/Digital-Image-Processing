@@ -45,7 +45,7 @@ plots[0].imshow(training_image)
 plots[1].set_title('Tesing Image')
 plots[1].imshow(test_image)
 
-plt.savefig('Images/Train_test_images.jpg')
+# plt.savefig('Images/Train_test_images.jpg')
 
 
 #####################################################################
